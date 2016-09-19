@@ -1,0 +1,11 @@
+ep 3:  Check contents of the input file and verify the format of the entries adheres to the following example:
+
+  nb.aibn.com org,LEGERS GENERAL STORE,1323169,n6gsf2@nb.aibn.com
+Step 4:  Once input file is verified, kick off the script with the following command:
+
+   /tordir01/imail/Mx8.0/RECONMVUSERS/MVUSERS/mv_users.pl  -v -in DATA/<INPUT FILE NAME>
+Step 5:  Contents of the script execution will be printed in an output file (similarily named to the input file) located in /tordir01/imail/Mx8.0/RECONMVUSERS/MVUSERS/output
+
+Step 6:  The following are the sample outputs that you will find in that output file:
+
+  Aliant Telecom Inc. org,JBM Sales Marshville,3452718,jbmsales.ltd@ns.aliantzinc.ca,P
